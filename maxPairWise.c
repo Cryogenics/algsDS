@@ -35,6 +35,8 @@ long long maxPairwiseProduct(long long numbers[], size_t arraySize){
 int main(void)
 {
 	int n;
+	/*
+	*/
 	long long numToInput;
 	int i;
 	long long result;
