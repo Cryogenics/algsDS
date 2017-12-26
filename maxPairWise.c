@@ -35,14 +35,26 @@ long long maxPairwiseProduct(long long numbers[], size_t arraySize){
 int main(void)
 {
 	int n;
-	
-	while(1){
-		n = rand() % 10 + 2;
-		fprintf(stderr, "%d\n", n);
-	}
-	
-	long long numToInput;
 	int i;
+/*	
+	while(1){
+		n = rand() % 1000 + 2;
+		fprintf(stderr, "%d\n", n);
+		long long arr[n];
+
+		for(i = 0; i < n; ++i){
+			arr[i] = rand() % 100000;
+		}
+		
+		for(i = 0; i < n; ++i){
+			fprintf(stderr, "%lld\n ", arr[i]);
+		}
+
+		printf("\n");
+		long long result1 = maxPairwiseProduct( arr, (sizeof(arr)/sizeof(arr[i])) );
+	}
+*/
+	long long numToInput;
 	long long result;
 	
 	scanf("%d", &n);
