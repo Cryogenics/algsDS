@@ -36,11 +36,6 @@ int main(void)
 {
 	int n;
 	
-	while(1){
-		n = rand() % 10 + 2;
-		fprintf(stderr, "%d\n", n);
-	}
-	
 	long long numToInput;
 	int i;
 	long long result;
